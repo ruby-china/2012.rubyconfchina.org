@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rb-fsevent (0.9.1)
+    sass (3.1.20)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rb-fsevent
+  sass
