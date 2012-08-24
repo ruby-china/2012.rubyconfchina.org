@@ -36,6 +36,8 @@ header {
     .container .content .sponsor-list li {
       display: inline;
       margin-right: 20px; }
+      .container .content .sponsor-list li img {
+        height: 64px; }
 
 .footer {
   background: #edece3;
