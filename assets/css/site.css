@@ -31,6 +31,11 @@ header {
   padding: 10px 30px;
   line-height: 1.5;
   font-size: 18px; }
+  .container .content .speaker .photo img {
+    width: 200px;
+    float: left; }
+  .container .content .speaker .desc {
+    padding-left: 230px; }
   .container .content .sponsor-list {
     margin-bottom: 50px; }
     .container .content .sponsor-list li {
