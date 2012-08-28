@@ -47,6 +47,8 @@ header {
         height: 64px; }
     .container .content .sponsor-list.platinum img {
       height: 128px; }
+    .container .content .sponsor-list.gold img {
+      height: 96px; }
 
 .footer {
   background: #edece3;
