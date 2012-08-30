@@ -44,7 +44,8 @@ header {
       display: inline;
       margin-right: 20px; }
       .container .content .sponsor-list li img {
-        height: 64px; }
+        height: 64px;
+        margin: 10px 0; }
     .container .content .sponsor-list.platinum img {
       height: 128px; }
     .container .content .sponsor-list.gold img {
