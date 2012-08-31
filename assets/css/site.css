@@ -95,11 +95,19 @@ header {
     .speaker .avatar img {
       width: 84px;
       height: 84px; }
+  .speaker a.twitter {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url("/assets/img/twitter.png");
+    right: 0px;
+    top: 39px; }
   .speaker .desc {
     width: 249px;
     height: 200px;
     padding-left: 145px;
-    padding-right: 13px;
+    padding-right: 25px;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -147,6 +155,9 @@ header {
 .speaker-odd {
   padding-right: 0px;
   padding-left: 135px; }
+  .speaker-odd a.twitter {
+    left: 0;
+    right: auto; }
   .speaker-odd .desc {
     margin-left: 135px;
     background: url("/assets/img/speaker-line.png") right -250px no-repeat;
@@ -277,20 +288,24 @@ header {
     .speaker .avatar,
     .speaker-odd .avatar {
       top: 8px;
-      left: 16px;
+      left: 0px;
       width: 20px;
       height: 20px; }
       .speaker .avatar img,
       .speaker-odd .avatar img {
         width: 20px;
         height: 20px; }
+    .speaker a.twitter,
+    .speaker-odd a.twitter {
+      left: 0;
+      top: 40px; }
     .speaker .desc,
     .speaker-odd .desc {
       width: 260px;
       height: 240px;
       padding: 0;
       margin: 0;
-      padding-left: 45px;
+      padding-left: 35px;
       background: none; }
       .speaker .desc h3,
       .speaker-odd .desc h3 {
@@ -380,19 +395,24 @@ header {
     .speaker .avatar,
     .speaker-odd .avatar {
       top: 8px;
-      left: 16px;
+      left: 0px;
       width: 50px;
       height: 50px; }
       .speaker .avatar img,
       .speaker-odd .avatar img {
         width: 50px;
         height: 50px; }
+    .speaker a.twitter,
+    .speaker-odd a.twitter {
+      left: 13px;
+      right: auto;
+      top: 70px; }
     .speaker .desc,
     .speaker-odd .desc {
       width: 380px;
       padding: 0;
       margin: 0;
-      padding-left: 80px;
+      padding-left: 65px;
       background: none; }
       .speaker .desc h3,
       .speaker-odd .desc h3 {

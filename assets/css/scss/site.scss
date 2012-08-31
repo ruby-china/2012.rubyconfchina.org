@@ -111,10 +111,15 @@ header {
     position:absolute; left:17px; top:10px;
     img { width: 84px; height:84px; }
   }
+  a.twitter {
+    display:block; position:absolute; width:25px;height:25px; 
+    background:url('/assets/img/twitter.png');
+    right:0px; top:39px; 
+  }
   .desc {
     width: 249px;
     height: 200px;
-    padding-left:145px; padding-right:13px;
+    padding-left:145px; padding-right:25px;
     overflow:hidden;
     position:absolute; top:0; left:0;
     background: url('/assets/img/speaker-line.png') left top no-repeat;
@@ -152,6 +157,9 @@ header {
 .speaker-odd {
   padding-right:0px;
   padding-left:135px;
+  a.twitter {
+    left:0; right:auto;
+  }
   .desc {
     margin-left:135px;
     background: url('/assets/img/speaker-line.png') right -250px no-repeat;
@@ -276,18 +284,19 @@ header {
     text-align:left;
     .avatar {
       top:8px;
-      left:16px;
+      left:0px;
       width:20px; height:20px; 
       img {      
         width:20px; height:20px; 
       }
     }
+    a.twitter { left:0; top:40px; }
     .desc {
       width: 260px;
       height: 240px;
       padding:0; margin:0;
       h3 { margin:4px 0; text-align:left; } 
-      padding-left:45px; 
+      padding-left:35px; 
       background:none;
       .subject { color:green; }
       .subject,
@@ -369,17 +378,18 @@ header {
     text-align:left;
     .avatar {
       top:8px;
-      left:16px;
+      left:0px;
       width:50px; height:50px; 
       img {      
         width:50px; height:50px; 
       }
     }
+    a.twitter { left:13px; right:auto; top:70px; }
     .desc {
       width: 380px;
       padding:0; margin:0;
       h3 { margin:4px 0; text-align:left; } 
-      padding-left:80px; 
+      padding-left:65px; 
       background:none;
       .subject { color:green; }
       .subject,
