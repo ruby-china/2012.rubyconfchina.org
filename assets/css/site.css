@@ -28,14 +28,28 @@ header {
     margin-bottom: -6px;
     position: relative; }
 .container .content {
-  padding: 30px;
+  padding: 10px 30px;
   line-height: 1.5;
   font-size: 18px; }
+  .container .content .speaker {
+    margin-bottom: 30px; }
+    .container .content .speaker .photo img {
+      width: 200px;
+      float: left; }
+    .container .content .speaker .desc {
+      padding-left: 230px; }
   .container .content .sponsor-list {
     margin-bottom: 50px; }
     .container .content .sponsor-list li {
       display: inline;
       margin-right: 20px; }
+      .container .content .sponsor-list li img {
+        height: 64px;
+        margin: 10px 0; }
+    .container .content .sponsor-list.platinum img {
+      height: 128px; }
+    .container .content .sponsor-list.gold img {
+      height: 96px; }
 
 .footer {
   background: #edece3;

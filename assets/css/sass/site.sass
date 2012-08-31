@@ -31,15 +31,32 @@ header
       position: relative
 
   .content
-    padding: 30px
+    padding: 10px 30px
     line-height: 1.5
     font-size: 18px
+
+    .speaker
+      margin-bottom: 30px
+      .photo img
+        width: 200px
+        float: left
+      .desc
+        padding-left: 230px
 
     .sponsor-list
       margin-bottom: 50px
       li
         display: inline
         margin-right: 20px
+        img
+          height: 64px
+          margin: 10px 0
+      &.platinum
+        img
+          height: 128px
+      &.gold
+        img
+          height: 96px
 
 .footer
   background: #edece3
