@@ -1,0 +1,122 @@
+* { margin:0; padding:0; }
+body {
+  margin:0; padding:0;
+  background: #161720 url('/assets/img/bg.png') repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #a2a2a6;
+  text-align: center;
+}
+
+.container {
+  width:960px;
+  margin:20px auto;
+}
+
+.nav {
+  margin:140px 0;
+  list-style:none;
+  li { 
+    display:inline;
+    padding:0 45px;
+    font-size:16px;
+    font-weight:bold;
+    a {
+      text-decoration: none;
+      color:#a2a2a6;
+    }
+  }
+}
+    
+
+header {
+  margin-bottom:150px;
+  text-decoration: center;
+  color:#FFF;
+  font-weight:normal;
+  letter-spacing: 2px;
+  font-size: 60px;
+  position:relative;
+  padding-bottom:20px;
+  sub { 
+    letter-spacing: 2px;
+    display:block;
+    position:absolute;
+    bottom:0;
+    left: 260px;
+    font-size:18px;
+    color:#b41808;
+  }
+}
+
+.box {
+  width: 500px;
+  margin:0 auto;
+  margin-bottom:150px;
+  h2 { 
+    padding-top:30px;
+    margin:0 auto 30px auto;
+    padding-bottom:14px;
+    border-bottom:1px solid #2e2f37;
+    width:280px; 
+    font-size:14px;
+    color:#2e2f37;
+    text-align:center;
+  }
+  .content {
+    text-align:center;
+    text-align: justify;
+    line-height:180%;
+    a { color:#b41808; }
+  }
+}
+
+#speakers {
+  h2 { margin-top: 80px; color:#b41808;  }
+}
+
+.speaker {
+  width: 407px;
+  margin:35px auto;
+  height: 120px;
+  position:relative;
+  .avatar {
+    width:100px; height:100px;
+    position:absolute; left:17px; top:10px;
+    img { width: 84px; height:84px; }
+  }
+  .desc {
+    width: 249px;
+    height: 120px;
+    padding-left:145px; padding-right:13px;
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+    background: url('/assets/img/speaker-line.png') left top no-repeat;
+    h3 { margin-top:20px; margin-bottom:20px; font-size:18px; text-align:center; color:#FFF; }
+    .subject,
+    .summary { font-size:13px; font-weight:normal; }
+    .summary { display:none; }
+    a { color:#FFF; }
+  }
+  &:hover {
+    .desc {
+      background-position: left -240px;
+      .subject { display:none; }
+      .summary { display:block; }
+    }
+  }
+}
+.speaker-odd {
+  .desc {
+    background: url('/assets/img/speaker-line.png') right -120px no-repeat;
+    padding-right:140px; padding-left:18px;
+  } 
+  &:hover {
+    .desc {
+      background-position: right -360px;
+    }
+  }
+  .avatar {
+    left: auto;
+    right: 17px;
+  }
+}

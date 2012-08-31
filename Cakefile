@@ -11,5 +11,5 @@ task 'assets:watch', 'Watch source files and build JS & CSS', (options) ->
     proc.stdout.on   'data', (buffer) -> console.log buffer.toString()
     proc.on          'exit', (status) -> process.exit(1) if status != 0
 
-  runCommand 'sass', ['--watch', 'assets/css/sass:assets/css']
+  runCommand 'sass', ['--watch','--scss', 'assets/css/scss:assets/css']
   runCommand 'coffee',  ['-wc', 'assets/js', 'assets/js']
