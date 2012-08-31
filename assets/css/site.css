@@ -26,24 +26,6 @@ body {
       text-decoration: none;
       color: #a2a2a6; }
 
-header {
-  margin-bottom: 150px;
-  text-decoration: center;
-  color: #FFF;
-  font-weight: normal;
-  letter-spacing: 2px;
-  font-size: 60px;
-  position: relative;
-  padding-bottom: 20px; }
-  header sub {
-    letter-spacing: 2px;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 260px;
-    font-size: 18px;
-    color: #b41808; }
-
 .box {
   width: 500px;
   margin: 0 auto;
@@ -63,6 +45,29 @@ header {
     line-height: 180%; }
     .box .content a {
       color: #b41808; }
+
+.date_qrcode {
+  margin-bottom: 150px; }
+  .date_qrcode .content {
+    text-align: center; }
+
+header {
+  margin-bottom: 50px;
+  text-decoration: center;
+  color: #FFF;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 60px;
+  position: relative;
+  padding-bottom: 20px; }
+  header sub {
+    letter-spacing: 2px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 260px;
+    font-size: 18px;
+    color: #b41808; }
 
 #speakers h2 {
   margin-top: 80px;
@@ -122,3 +127,60 @@ header {
 .speaker-odd .avatar {
   left: auto;
   right: 17px; }
+
+#venue {
+  margin-bottom: 100px; }
+  #venue .box {
+    width: 900px; }
+    #venue .box .content {
+      text-align: center; }
+  #venue address {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: #FFF; }
+    #venue address b {
+      color: #b41808; }
+  #venue ul {
+    list-style: none; }
+    #venue ul li {
+      line-height: 200%; }
+  #venue h5 {
+    margin-top: 80px;
+    margin-bottom: 20px; }
+  #venue .map {
+    text-align: center; }
+    #venue .map a {
+      padding-left: 14px;
+      color: #FFF;
+      text-decoration: none;
+      line-height: 48px; }
+      #venue .map a img {
+        margin-bottom: -28px; }
+
+#sponsor {
+  text-align: center;
+  width: 900px; }
+  #sponsor h4 {
+    font-size: 18px;
+    margin-bottom: 10px; }
+  #sponsor ul {
+    list-style: none; }
+    #sponsor ul li {
+      display: inline;
+      height: 80px;
+      overflow: hidden; }
+  #sponsor .join-sponsor,
+  #sponsor .sponsor-list {
+    text-align: center;
+    margin-bottom: 40px; }
+
+#contact .content {
+  margin-bottom: 40px;
+  text-align: center; }
+  #contact .content ul {
+    text-align: left;
+    margin: 20px 0;
+    list-style-position: inside; }
+    #contact .content ul li {
+      padding-left: 40px; }
