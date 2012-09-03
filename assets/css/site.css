@@ -369,6 +369,9 @@ header {
   .box {
     margin-bottom: 30px; }
 
+  #about {
+    width: 480px; }
+
   #venue {
     margin-bottom: 40px; }
     #venue address {
@@ -460,6 +463,9 @@ header {
   .box {
     margin-bottom: 40px; }
 
+  #about {
+    width: 600px; }
+
   #venue .venue_pic {
     width: 700px; }
 
@@ -468,6 +474,11 @@ header {
 @media (min-width: 980px) and (max-width: 1279px) {
   .container {
     width: 960px; }
+
+  #about {
+    width: 600px; }
+    #about .content {
+      font-size: 16px; }
 
   #contact img.ruby-china {
     width: 128px; } }
@@ -483,6 +494,11 @@ header {
 
   .box h2 {
     font-size: 20px; }
+
+  #about {
+    width: 800px; }
+    #about .content {
+      font-size: 18px; }
 
   #venue address {
     font-size: 40px;
