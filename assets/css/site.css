@@ -38,7 +38,7 @@ body {
     border-bottom: 1px solid #2e2f37;
     width: 280px;
     font-size: 14px;
-    color: #2e2f37;
+    color: #B41808;
     text-align: center; }
   .box .content {
     text-align: center;
@@ -234,6 +234,25 @@ header {
     list-style-position: inside; }
     #contact .content ul li {
       padding-left: 40px; }
+
+#register {
+  width: 800px; }
+  #register .btn {
+    margin-top: 30px;
+    display: block;
+    display: inline-block;
+    background: #b41808 url(//cdn.shopqi.com/s/files/401/theme/526/assets/btn-small-depth.png?1347720496) 0 100% repeat-x;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #B41808;
+    color: #f3e7d5;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    cursor: pointer; }
 
 /* 响应式 */
 @media (min-width: 0) and (max-width: 479px) {

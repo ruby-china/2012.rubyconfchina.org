@@ -3,10 +3,10 @@
 @mixin clearfix {
   zoom:1;
   &:before, &:after {
-      content: "\0020"; 
-      display: block; 
-      height: 0; 
-      overflow: hidden; 
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
   }
   &:after {
       clear: both;
@@ -30,7 +30,7 @@ body {
 .nav {
   margin:140px 0;
   list-style:none;
-  li { 
+  li {
     display:inline;
     padding:0 45px;
     font-size:16px;
@@ -47,14 +47,14 @@ body {
 .box {
   margin:0 auto;
   margin-bottom:150px;
-  h2 { 
+  h2 {
     padding-top:30px;
     margin:0 auto 30px auto;
     padding-bottom:14px;
     border-bottom:1px solid #2e2f37;
-    width:280px; 
+    width:280px;
     font-size:14px;
-    color:#2e2f37;
+    color:#B41808;
     text-align:center;
   }
   .content {
@@ -65,8 +65,8 @@ body {
   }
 }
 
-    
-.date_qrcode { 
+
+.date_qrcode {
   .content { text-align:center; }
 }
 
@@ -79,7 +79,7 @@ header {
   font-size: 60px;
   position:relative;
   padding-bottom:20px;
-  sub { 
+  sub {
     letter-spacing: 2px;
     display:block;
     position:absolute;
@@ -111,9 +111,9 @@ header {
     img { width: 84px; height:84px; }
   }
   a.twitter {
-    display:block; position:absolute; width:25px;height:25px; 
+    display:block; position:absolute; width:25px;height:25px;
     background:url('/assets/img/twitter.png');
-    right:0px; top:39px; 
+    right:0px; top:39px;
   }
   .desc {
     width: 249px;
@@ -126,16 +126,16 @@ header {
     -moz-transition: width  0.5s; /* Firefox 4 */
     -webkit-transition: width  0.5s; /* Safari and Chrome */
     -o-transition: width 0.5s; /* Opera */
-    h3 { 
-      margin:0; margin-top:20px; margin-bottom:20px; font-size:18px; text-align:center; color:#FFF; 
+    h3 {
+      margin:0; margin-top:20px; margin-bottom:20px; font-size:18px; text-align:center; color:#FFF;
       transition: align 0.5s;
       -moz-transition: align  0.5s; /* Firefox 4 */
       -webkit-transition: align  0.5s; /* Safari and Chrome */
       -o-transition: align 0.5s; /* Opera */
     }
     .subject,
-    .summary { 
-      font-size:13px; font-weight:normal; 
+    .summary {
+      font-size:13px; font-weight:normal;
     }
     .summary { display:none; }
     a { color:#FFF; }
@@ -147,8 +147,8 @@ header {
       background-position: left -500px;
       h3 { }
       .subject { display:none; }
-      .summary { 
-        display:block;  
+      .summary {
+        display:block;
       }
     }
   }
@@ -163,12 +163,12 @@ header {
     margin-left:135px;
     background: url('/assets/img/speaker-line.png') right -250px no-repeat;
     padding-right:140px; padding-left:18px;
-  } 
+  }
   &:hover {
     .desc {
       background-position: right -750px;
       h3 { }
-      .summary { } 
+      .summary { }
     }
   }
   .avatar {
@@ -184,7 +184,7 @@ header {
       text-align:center;
     }
   }
-  address { 
+  address {
     font-size:26px; margin-bottom:20px;
     font-style: normal; color:#FFF;
     b { color:#b41808; }
@@ -194,11 +194,11 @@ header {
     li { line-height:200%; }
   }
   h5 { margin-top:80px; margin-bottom:20px; }
-  .map { 
-    text-align: center; 
-    a {  
+  .map {
+    text-align: center;
+    a {
       padding-left:14px;
-      color:#FFF; text-decoration: none; 
+      color:#FFF; text-decoration: none;
       line-height:48px;
       img { margin-bottom:-28px; }
     }
@@ -208,15 +208,15 @@ header {
 #sponsor {
   text-align: center;
   h4 { font-size:18px; margin-bottom:10px; }
-  ul { 
-    list-style: none; 
-    li { 
-      display:inline; height:80px; overflow:hidden; 
-      a { 
-        padding:20px; 
+  ul {
+    list-style: none;
+    li {
+      display:inline; height:80px; overflow:hidden;
+      a {
+        padding:20px;
         display:inline-block;
         text-decoration:none;
-        @include clearfix; 
+        @include clearfix;
       }
     }
   }
@@ -228,7 +228,7 @@ header {
 }
 
 #contact {
-  .content { 
+  .content {
     margin-bottom:40px;
     text-align: center;
     ul {
@@ -240,18 +240,39 @@ header {
   }
 }
 
+#register {
+  width: 800px;
+  .btn {
+    margin-top: 30px;
+    display: block;
+    display: inline-block;
+    background: #B41808 url(//cdn.shopqi.com/s/files/401/theme/526/assets/btn-small-depth.png?1347720496) 0 100% repeat-x;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #B41808;
+    color: #f3e7d5;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
 /* 响应式 */
 @media (min-width: 0) and (max-width: 479px){
   body { font-size: 12px; }
   .container { width: 300px; }
-  .logo { 
+  .logo {
     img { width:100px; }
   }
   .nav {
     margin:20px auto;
     li { padding:5px 5px; font-size:13px; }
   }
-  header { 
+  header {
     font-size:20px; margin-bottom:0px;
     sub {
       font-size:12px;
@@ -284,9 +305,9 @@ header {
     .avatar {
       top:8px;
       left:0px;
-      width:20px; height:20px; 
-      img {      
-        width:20px; height:20px; 
+      width:20px; height:20px;
+      img {
+        width:20px; height:20px;
       }
     }
     a.twitter { left:0; top:40px; }
@@ -294,8 +315,8 @@ header {
       width: 260px;
       height: 240px;
       padding:0; margin:0;
-      h3 { margin:4px 0; text-align:left; } 
-      padding-left:35px; 
+      h3 { margin:4px 0; text-align:left; }
+      padding-left:35px;
       background:none;
       .subject { color:green; }
       .subject,
@@ -310,7 +331,7 @@ header {
       }
     }
   }
-  #sponsor { 
+  #sponsor {
     img { width: 80px; }
     .platinum {
       img { width: 120px; }
@@ -331,15 +352,15 @@ header {
 @media (min-width: 480px) and (max-width: 767px){
   body { font-size: 14px; }
   .container { width: 470px; }
-  .logo { 
+  .logo {
     img { width:200px; }
   }
   .nav {
     margin:20px auto;
     li { padding:0 10px; font-size:13px; }
   }
-  header { 
-    font-size:30px; 
+  header {
+    font-size:30px;
     sub {
       font-size:12px;
       left:124px;
@@ -358,7 +379,7 @@ header {
       width: 450px;
     }
   }
-  #sponsor { 
+  #sponsor {
     img { width: 100px; }
     .platinum {
       img { width: 180px; }
@@ -381,17 +402,17 @@ header {
     .avatar {
       top:8px;
       left:0px;
-      width:50px; height:50px; 
-      img {      
-        width:50px; height:50px; 
+      width:50px; height:50px;
+      img {
+        width:50px; height:50px;
       }
     }
     a.twitter { left:13px; right:auto; top:70px; }
     .desc {
       width: 380px;
       padding:0; margin:0;
-      h3 { margin:4px 0; text-align:left; } 
-      padding-left:65px; 
+      h3 { margin:4px 0; text-align:left; }
+      padding-left:65px;
       background:none;
       .subject { color:green; }
       .subject,
@@ -453,9 +474,9 @@ header {
 @media (min-width: 1280px) and (max-width: 2000px) {
   .container { width: 1240px; }
   header {
-    font-size:90px; 
+    font-size:90px;
   }
-  .nav { 
+  .nav {
     li { font-size:20px; }
   }
   .box {
