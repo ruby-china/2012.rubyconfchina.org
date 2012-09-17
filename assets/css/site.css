@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #161720 url("/assets/img/bg.png") repeat;
+  background: #161720 url("http://l.ruby-china.org/rubyconf2012/img/bg.png") repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #a2a2a6;
   text-align: center; }
@@ -100,7 +100,7 @@ header {
     position: absolute;
     width: 25px;
     height: 25px;
-    background: url("/assets/img/twitter.png");
+    background: url("http://l.ruby-china.org/rubyconf2012/img/twitter.png");
     right: 0px;
     top: 39px; }
   .speaker .desc {
@@ -112,7 +112,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background: url("/assets/img/speaker-line.png") left top no-repeat;
+    background: url("http://l.ruby-china.org/rubyconf2012/img/speaker-line.png") left top no-repeat;
     transition: width 0.5s;
     -moz-transition: width  0.5s;
     /* Firefox 4 */
@@ -160,7 +160,7 @@ header {
     right: auto; }
   .speaker-odd .desc {
     margin-left: 135px;
-    background: url("/assets/img/speaker-line.png") right -250px no-repeat;
+    background: url("http://l.ruby-china.org/rubyconf2012/img/speaker-line.png") right -250px no-repeat;
     padding-right: 140px;
     padding-left: 18px; }
   .speaker-odd:hover .desc {
@@ -241,7 +241,7 @@ header {
     margin-top: 30px;
     display: block;
     display: inline-block;
-    background: #b41808 url(//cdn.shopqi.com/s/files/401/theme/526/assets/btn-small-depth.png?1347720496) 0 100% repeat-x;
+    background: #b41808 url(//cdn.shopqi.com/s/files/401/theme/526http://l.ruby-china.org/rubyconf2012/btn-small-depth.png?1347720496) 0 100% repeat-x;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
