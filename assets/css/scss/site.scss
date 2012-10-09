@@ -241,7 +241,6 @@ header {
 }
 
 #register {
-  width: 800px;
   .btn {
     margin-top: 30px;
     display: block;
@@ -367,7 +366,7 @@ header {
     }
   }
   .box { margin-bottom:30px; }
-  #about {
+  #about,#register {
     width:480px;
   }
   #venue {
@@ -447,7 +446,7 @@ header {
     }
   }
   .box { margin-bottom:40px; }
-  #about {
+  #about,#register {
     width:600px;
   }
   #venue {
@@ -461,7 +460,7 @@ header {
 }
 @media (min-width: 980px) and (max-width: 1279px) {
   .container { width: 960px; }
-  #about {
+  #about,#register {
     width:600px;
     .content {
       font-size: 16px;
@@ -482,7 +481,7 @@ header {
   .box {
     h2 { font-size: 20px; }
   }
-  #about {
+  #about,#register {
     width:800px;
     .content {
       font-size: 18px;
