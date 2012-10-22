@@ -117,9 +117,8 @@ body {
     height: 64px;
     line-height: 64px;
     background: url("/assets/img/donation/why.png") no-repeat;
-    text-align: center;
+    text-align: left;
     padding: 0 0 20px 78px;
-    display: inline-block;
     font-size: 32px; }
   .desc p {
     text-align: left;
