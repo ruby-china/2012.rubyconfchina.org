@@ -386,7 +386,7 @@ header {
   .box {
     margin-bottom: 30px; }
 
-  #about {
+  #about, #register {
     width: 480px; }
 
   #venue {
@@ -480,7 +480,7 @@ header {
   .box {
     margin-bottom: 40px; }
 
-  #about {
+  #about, #register {
     width: 600px; }
 
   #venue .venue_pic {
@@ -492,9 +492,9 @@ header {
   .container {
     width: 960px; }
 
-  #about {
+  #about, #register {
     width: 600px; }
-    #about .content {
+    #about .content, #register .content {
       font-size: 16px; }
 
   #contact img.ruby-china {
@@ -512,9 +512,9 @@ header {
   .box h2 {
     font-size: 20px; }
 
-  #about {
+  #about, #register {
     width: 800px; }
-    #about .content {
+    #about .content, #register .content {
       font-size: 18px; }
 
   #venue address {
