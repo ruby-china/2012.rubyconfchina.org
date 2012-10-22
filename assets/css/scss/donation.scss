@@ -1,6 +1,7 @@
 $bgColorWhite: #fff;
 $bgColorLight: #fef7e7;
-$bgColorDark: #f4b23a;
+$bgColorDark: #f0832a;
+$fontColor: #4D4D4D;
 
 * { margin:0; padding:0; }
 
@@ -10,16 +11,15 @@ $bgColorDark: #f4b23a;
 
 a {
   text-decoration: none;
-  color: #f0832a;
+  color: $bgColorDark;
 }
 
 
 body {
-  margin:0; padding:0;
   background: white url('/assets/img/donation/bg.png') repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #4d4d4d;
+  color: $fontColor;
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
 .header {
   border-top: 4px solid $bgColorDark;
   border-bottom: 1px solid #ccc;
-  background-color: white;
+  background-color: $bgColorWhite;
   h1 {
     padding: 20px;
   }
@@ -45,7 +45,6 @@ body {
   &.bg-color-dark {
     background-color: $bgColorDark;
   }
-
   &.bg-color-light {
     background-color: $bgColorLight;
   }
@@ -63,7 +62,7 @@ body {
 
   .stats {
     float: left;
-    margin-left: 32px;
+    margin-left: 65px;
     width: 300px;
     text-align: left;
 
@@ -71,10 +70,6 @@ body {
       display: block;
       font-size: 12px;
 
-      &.unit {
-        display: inline-block;
-        font-size: 32px;
-      }
       &.value {
         font-size: 32px;
       }
@@ -83,7 +78,7 @@ body {
 }
 
 #progress_bg {
-  margin: 10px;
+  margin: 10px 0 20px 0;
   float: left;
   height: 15px;
   -moz-box-shadow: 0 1px 1px rgba(0,0,0,.41); /* drop shadow */
@@ -111,17 +106,6 @@ body {
     width: 100%;
     max-width: 100%;
     display: inline-block;
-  }
-  #progress_text {
-    margin: 0 auto;
-    width: 100%;
-    font-size: 14pt;
-    display: inline-block;
-    color: white;
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.37);
-    text-align: center;
-    position: relative;
-    top: -35px;
   }
 }
 
