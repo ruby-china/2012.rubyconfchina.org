@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearboth {
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: #f0832a; }
+
+li {
+  text-align: left; }
+
+body {
+  background: white url("/assets/img/donation/bg.png") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #4d4d4d; }
+
+.container {
+  width: 960px;
+  margin: auto;
+  box-shadow: 0 0 5px #888; }
+
+.header {
+  border-top: 4px solid #f0832a;
+  border-bottom: 1px solid #ccc;
+  background-color: white; }
+  .header h1 {
+    padding: 20px; }
+
+.content {
+  background-color: white;
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc; }
+  .content.bg-color-dark {
+    background-color: #f0832a; }
+  .content.bg-color-light {
+    background-color: #fef7e7; }
+
+.wrap {
+  margin: 0 auto;
+  padding: 20px 0; }
+  .wrap .photo {
+    margin-left: 100px;
+    float: left;
+    width: 400px; }
+  .wrap .stats {
+    float: left;
+    margin-left: 65px;
+    margin-top: 80px;
+    width: 300px;
+    text-align: left; }
+    .wrap .stats span {
+      display: block;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 150%; }
+    .wrap .stats .sponsor-button {
+      margin-top: 20px; }
+
+.desc {
+  margin: 0 auto;
+  width: 680px; }
+  .desc h2 {
+    height: 64px;
+    line-height: 64px;
+    background: url("/assets/img/donation/why.png") no-repeat;
+    text-align: left;
+    padding: 0 0 20px 78px;
+    font-size: 32px; }
+  .desc p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 10px 0 20px 0; }
+
+.footer {
+  height: 55px; }
+  .footer span {
+    line-height: 150%;
+    display: block; }
+    .footer span a {
+      display: inline-block;
+      margin: 5px; }
