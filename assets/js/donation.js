@@ -2,16 +2,8 @@
 (function() {
 
   $(function() {
-    var amount, goal, percentage, state;
-    state = $('.stats');
-    amount = Number(state.find('.amount').text().replace("¥ ", ""));
-    goal = Number(state.find('.amount').data('goal'));
-    percentage = (amount / goal) * 100;
-    if (percentage > 100) {
-      percentage = 100;
-    }
-    return state.find('#progress').css({
-      width: "" + (Math.floor(percentage)) + "%"
+    return $('.donation-button').find('a').click(function() {
+      return false;
     });
   });
 
