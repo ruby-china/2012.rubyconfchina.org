@@ -14,9 +14,15 @@ a {
   color: $bgColorDark;
 }
 
-li {
-  text-align: left;
+ul {
+  margin-left: 40px;
+
+  li {
+    line-height: 150%;
+    text-align: left;
+  }
 }
+
 
 
 body {
