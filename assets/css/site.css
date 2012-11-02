@@ -197,6 +197,9 @@ header {
       #venue .map a img {
         margin-bottom: -28px; }
 
+#schedule .box .content {
+  text-align: center; }
+
 #sponsor {
   text-align: center; }
   #sponsor h4 {
