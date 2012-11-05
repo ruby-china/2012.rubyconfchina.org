@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white url("/assets/img/donation/bg.png") repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d; }
+  body a {
+    text-decoration: none;
+    color: #f0832a; }
+  body p {
+    line-height: 150%; }
+  body ol {
+    margin: 20px; }
+
+.header {
+  zoom: 1; }
+  .header:before, .header:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .header:after {
+    clear: both; }
+  .header img {
+    float: left;
+    margin-left: 50px; }
+  .header h1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 160px;
+    font-size: 52px; }
+
+.container {
+  width: 960px;
+  margin: auto;
+  box-shadow: 0 0 5px #888; }
+
+.section {
+  margin: 20px 60px; }
+  .section h3 {
+    margin: 20px 0 5px 0; }
+  .section h4 {
+    margin: 20px 0 5px 0;
+    font-size: 20px; }
+  .section img {
+    margin: 10px; }
+  .section blockquote, .section pre {
+    padding: 10px;
+    background-color: #ccc; }

@@ -1,0 +1,79 @@
+$bgColorWhite: #fff;
+$bgColorLight: #fef7e7;
+$bgColorDark: #f0832a;
+$fontColor: #4D4D4D;
+
+@mixin clearfix {
+  zoom:1;
+  &:before, &:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
+  }
+  &:after {
+      clear: both;
+  }
+}
+
+* { margin:0; padding:0; }
+
+body {
+  background: white url('/assets/img/donation/bg.png') repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $fontColor;
+
+  a {
+    text-decoration: none;
+    color: $bgColorDark;
+  }
+
+  p {
+    line-height: 150%;
+  }
+
+  ol {
+    margin: 20px;
+  }
+}
+
+.header {
+  @include clearfix;
+  img {
+    float: left;
+    margin-left: 50px;
+  }
+  h1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 160px;
+    font-size: 52px;
+  }
+}
+
+.container {
+  width:960px;
+  margin: auto;
+  box-shadow: 0 0 5px #888;
+}
+
+.section {
+  margin: 20px 60px;
+  h3 {
+    margin: 20px 0 5px 0;
+  }
+
+  h4 {
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+  }
+
+  img {
+    margin: 10px;
+  }
+
+  blockquote, pre {
+    padding: 10px;
+    background-color: #ccc;
+  }
+}
