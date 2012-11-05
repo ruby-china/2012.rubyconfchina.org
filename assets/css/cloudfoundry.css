@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background-color: white;
+  background: white url("assets/img/donation/bg.png") repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4d4d4d; }
   body a {
@@ -13,6 +13,12 @@ body {
     line-height: 150%; }
   body ol {
     margin: 20px; }
+
+.container {
+  background-color: white;
+  width: 960px;
+  margin: auto;
+  box-shadow: 0 0 5px #888; }
 
 .header {
   zoom: 1; }
@@ -31,11 +37,6 @@ body {
     margin-left: 30px;
     margin-top: 160px;
     font-size: 52px; }
-
-.container {
-  width: 960px;
-  margin: auto;
-  box-shadow: 0 0 5px #888; }
 
 .section {
   margin: 20px 60px; }
