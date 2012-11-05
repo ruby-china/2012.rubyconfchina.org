@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  background: white url("/assets/img/donation/bg.png") repeat;
+  background-color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #4d4d4d; }
   body a {
