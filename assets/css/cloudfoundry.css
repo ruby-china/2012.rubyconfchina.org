@@ -32,10 +32,13 @@ body {
   .header img {
     float: left;
     margin-left: 50px; }
+  .header h4 {
+    float: right;
+    margin-right: 95px;
+    margin-top: 160px; }
   .header h1 {
     float: left;
     margin-left: 30px;
-    margin-top: 160px;
     font-size: 52px; }
 
 .section {
