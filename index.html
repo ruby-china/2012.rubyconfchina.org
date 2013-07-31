@@ -1,6 +1,470 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/2012">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RubyConfChina 2012</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruby China Conference official website">
+  <meta name="author" content="Daniel Lv">
+
+  <link href="assets/css/site.css" rel="stylesheet">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container">
+  <div class="logo">
+    <img src="http://l.ruby-china.org/rubyconf2012/img/logo.png" alt="RubyConfChina 2012" />
+  </div>
+
+  <ul class="nav">
+    <li><a href="#about">大会介绍</a></li>
+    <li><a href="#speakers">演讲嘉宾</a></li>
+    <li><a href="#schedule">日程安排</a></li>
+    <li><a href="#venue">会场信息</a></li>
+    <li><a href="#sponsor">赞助单位</a></li>
+    <li><a href="#register">报名参会</a></li>
+    <li><a href="#contact">联系我们</a></li>
+    <li><a href="cloudfoundry.html">CloudFoundry启动营</a></li>
+  </ul>
+
+
+  <header>
+    <div>NOVEMBER IN SHANGHAI<sub>17, 18 TWO DAYS</sub></div>
+  </header>
+
+  <div class="box date_qrcode">
+    <h2>扫描二维码即可获得日程信息</h2>
+    <div class="content">
+      <img src="http://l.ruby-china.org/rubyconf2012/img/chart-date.png" title="扫描二维码即可获得日程信息" />
+    </div>
+  </div>
+
+  <div id="register" class="box">
+    <h2>大会门票购买和须知</h2>
+    <div class="content">
+      <ul>
+        <li>本次大会为非盈利大会，大会门票收入仅用于支付参会者的两日午餐费，茶歇，饮料，以及志愿者的餐费等。此外，参会者可以通过抽奖获得各种礼品。</li>
+        <li>公开发售的大会门票分为个人票和公司票，普通票前200名注册购买人享受99元优惠票价，第201～400人享受118元优惠票价，个人票不提供发票。公司票与个人票一样，公司票可以开发票，但不享受任何折扣。 (社区办大会不容易，建议有条件的公司尽量买公司票)。</li>
+        <li><strong>注意：</strong>购票过程中，请在备注栏目中写上您的姓名（公司票请填写发票抬头），结算时请务必填写准确的邮箱地址，以方便我们给您发送电子门票。</li>
+      </ul>
+    </div>
+    <a class="btn" href="http://rubyconfchina-shop.shopqi.com" target="_blank">立刻购买</a>
+  </div>
+
+  <div id="about" class="box">
+    <h2>大会介绍</h2>
+    <div class="content">
+      <p>中国规模最大，最高水平，最有影响力的Ruby技术大会 - RubyConfChina 将在2012年11月17日至18日在上海杨浦区创智天地举行，本次大会是第四次Ruby中国技术大会。大会规模将超过500人，由 Ruby China 和 TopGeek 社区共同发起，并邀请了 Ruby 语言之父松本行弘先生，以及来来自海外，台湾，国内本土的最顶尖的 Ruby 开发高手，为国内所有关注 Ruby，使用 Ruby，推广 Ruby 的企业和个人，提供平等，开放的交流平台。本年度的 Ruby 大会是一场技术的饕餮盛宴，有超过20场的技术讲座，主题演讲，来自全国的Ruby 社区的组织者们将倾力为大家打造一场国内乃至亚洲顶级的Ruby大会。</p>
+    </div>
+  </div>
+
+  <div id="speakers">
+    <h2>讲师阵容</h2>
+    <div class="content">
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/matz.jpg" alt="松本行弘 (Matz)" />
+        </div>
+        <div class="desc">
+          <h3>松本行弘 (Matz)</h3>
+          <a href="http://twitter.com/yukihiro_matz" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">Ruby 2.0</div>
+          <div class="summary">Ruby 语言的发明人，1993 年发布了 Ruby 语言的第一个版本，随后 Ruby 逐渐在日本流行起来。2000年，Dave Thomas 出版了《Programming Ruby》一书，首次将这个发源于日本的动态编程语言介绍到了英文社区，Ruby 开始在全球范围内流行。04 年，丹麦人 DHH 用 Ruby 编写了 Web 快速开发框架 Ruby on Rails，彻底掀起了 Ruby 语言的热潮。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/jesse.png" alt="Jesse Zhang" />
+        </div>
+        <div class="desc">
+          <h3>Jesse Zhang</h3>
+          <a href="https://twitter.com/essej" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">How Cloud Foundry Did it (with Ruby)</div>
+          <div class="summary">This is mainly a story about how a small team managed to roll out a large scale application platform in a short time. Jesse Zhang is a Math and Computer Science geek, polyglot, totally random and ADD. Fudan CS 2008. Cloud Foundry core team @VMW for a year.</div>
+        </div>
+      </div>
+
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/fredwu.jpg" alt="Fred Wu" />
+        </div>
+        <div class="desc">
+          <h3>Fred Wu</h3>
+          <a href="http://twitter.com/fredwu" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">如何通过努力和一些小聪明，成为一个更优秀的 Ruby 程序员</div>
+          <div class="summary"><a href="https://github.com/stonean/slim" target="_blank">slim</a> 模版语言开发者，为 Rails 等项目做过的贡献，一位对开源社区充满热情的程序员。出生和成长于上海，从13岁开始接触到并爱上了计算机与网络，从计算机杂志上“认识”了 HTML，萌发了对网络的憧憬。经过中学阶段对网络的痴迷到最终选择了互联网程序开发作为职业。毕业于澳大利亚墨尔本的 Monash 大学，就读于信息技术与系统（多媒体）专业。曾经在 Envato, PlayUp 和 SitePoint 等公司就职，目前在 Locomote 带领技术团队。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/terry.jpg" alt="太檑 (Terry Tai)" />
+        </div>
+        <div class="desc">
+          <h3>太檑 (Terry Tai)</h3>
+          <a href="http://twitter.com/poshboytl" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">How we test our projects</div>
+          <div class="summary"><a href="http://pragmatic.ly" target="_blank">Pragmatic.ly</a>, <a href="http://railscasts-china.com" target="_blank">railscasts-china.com</a> 创始人。典型的理想主义者。热爱开源，喜欢分享，热衷于把自己知道的东西以各种方式分享给他人。对代码有洁癖，且有点偏执。从小励志成为职业玩家的他最终走向了技术宅的不归之路，最可怕的是他还深深的热爱上了这份事业。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/caiwangqing.jpg" alt="蔡望勤 (caiwangqing)" />
+        </div>
+        <div class="desc">
+          <h3>蔡望勤 (caiwangqing)</h3>
+          <a href="http://twitter.com/Caiwangqin" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">用 Rails / Sinatra 实现企业智能能源云服务</div>
+          <div class="summary">蔡望勤是 <a href="http://chinaonrails.com" target="_blank">chinaonrails.com</a> 的创始人。1997 年接触编程语言 Pascal，01 年至 05 年为珠三角多家知名企业研发知识管理系统和人力资源管理系统。05 年加入当时中国最大的社交网络平台 UUZone，从此专注互联网应用研发。07 年赴北京参与创建时尚社交网络公司 P1.cn，并担任 CTO。现在他住在深圳，任易皆能科技(深圳)有限公司云服务研发总监。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/richard_huang.png" alt="黄志敏 (flyerhzm)" />
+        </div>
+        <div class="desc">
+          <h3>黄志敏 (flyerhzm)</h3>
+          <a href="http://twitter.com/flyerhzm" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">JRuby @ OpenFeint</div>
+          <div class="summary"><a href="http://github.com/flyerhzm/rails_best_practices" target="_blank">rails_best_practices</a>, <a href="http://github.com/flyerhzm/bullet" target="_blank">bullet</a>, <a href="http://github.com/flyerhzm/activemerchant_patch_for_china" target="_blank">activemerchant_patch_for_china</a> 等众多知名 Gem 的创始人。资深软件工程师，Consultant @ GREE，负责 OpenFeint 平台的基础设施，技术架构和服务器端性能优化。曾是 2011 年 RubyKaigi 和 2012 年 Railsconf 的演讲嘉宾，热衷于开源社区。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/saberma.jpg" alt="saberma" />
+        </div>
+        <div class="desc">
+          <h3>马海波 (saberma)</h3>
+          <a href="http://twitter.com/saberma" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">互联网创业，没有设计师，如何设计</div>
+          <div class="summary">马海波是 ShopQi 云商店的创始人、一名全栈型程序员、开源爱好者。1997年迷上电脑游戏，开始学习电脑各种软硬件知识，在网吧谋得兼职，使用 VB  开发网吧管理工具；2004年毕业从事 Java 开发；2008年尝试使用 Ruby 做网站；2009年说服公司组建 Ruby 团队，开发企业应用；2010年学习 Object-C 开发 iPhone 应用，做了个小游戏放到 App Store 卖，2011年开始创业。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/quake_wang.jpg" alt="王益善 (Quake Wang)" />
+        </div>
+        <div class="desc">
+          <h3>王益善 (Quake Wang)</h3>
+          <a href="http://twitter.com/quakewang" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">Ruby Arduino Hacking</div>
+          <div class="summary">现为上海蝉翼网络科技有限公司的联合创始人，负责 <a target="_blank" href="http://chanyouji.com">chanyouji.com</a> 的服务器端开发。曾在中芯国际，<a target="_blank" href="http://iteye.com">JavaEye</a> 和碧汉网络工作，超过11年的软件开发经验，也曾是第一届的 RubyConfChina 的演讲嘉宾。擅长用开源方案解决问题，同时也热衷于开源社区，积极投入和反馈给社区。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/zhanghe.jpg" alt="张禾" />
+        </div>
+        <div class="desc">
+          <h3>张禾</h3>
+          <a href="#" title="无" target="_blank" class="twitter"></a>
+          <div class="subject">Ruby 元编程（Meta Programming）</div>
+          <div class="summary"><a target="_blank" href="http://www.thoughtworks.com/">ThoughtWorks</a> 高级咨询师，Ruby Hacker，在软件研发团队持续改进方面，具有丰富的实践和咨询经验。目前主要致力于云计算技术和软件开发相结合的研究和推广（MetaPaaS/DevCloud）。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/xdite.png" alt="鄭伊廷 (xdite)" />
+        </div>
+        <div class="desc">
+          <h3>鄭伊廷 (xdite)</h3>
+          <a href="http://twitter.com/xdite" title="点击查看她的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">最「佳」實踐如何變成了最「慢」實踐</div>
+          <div class="summary">東南亞最知名的 Rails 技術博主。熱愛技術分享與網站開發。2007年接觸 Rails 後不可自拔。全能、全棧型球員。獨立開發中小型項目或是組建團隊建構大型項目皆游刃自如。曾就職於台灣城邦集團、HTC ，擔任高級技術主管。現獨立開設軟體顧問公司<a target="_blank" href="http://rocodev.com">Rocodev</a>創業中。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/davidtian.jpg" alt="David Tian"/>
+        </div>
+        <div class="desc">
+          <h3>David Tian</h3>
+          <a href="#" title="无" target="_blank" class="twitter"></a>
+          <div class="subject">Ruby on Rails 在 VMWare Mozy 云备份服务中的应用</div>
+          <div class="summary">VMWare 研发经理，供职于 VMWare Mozy 事业部，负责 Mozy Web 应用程序的研发及维护。3+ 年 Ruby on Rails 经验，Ruby Evangelist， 10+ 年 IT 行业经验, 2001 年毕业于于浙江大学。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/yedingding.jpg" alt="叶玎玎 (Yedingding)"/>
+        </div>
+        <div class="desc">
+          <h3>叶玎玎 (Yedingding)</h3>
+          <a href="http://twitter.com/yedingding" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">Real Time Solutions with Ruby</div>
+          <div class="summary"><a href="http://pragmatic.ly" target="_blank">Pragmatic.ly</a> 创始人，前 Intridea 架构师，负责产品管理与开发。开源狂热者，喜欢解决各种疑难杂症，完美主义兼强迫症者。喜欢研究开发流程及方法论，关注如何改善团队协作。创业菜鸟，目标是做让中国开发者骄傲的产品。资深曼联球迷，防守型后腰，更关注如何让队友发挥的更好。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/saito_wu.jpg" class="武鑫 (Saito Wu)" />
+        </div>
+        <div class="desc">
+          <h3>武鑫 (Saito Wu)</h3>
+          <a href="http://twitter.com/SaitoWu" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">How GitLab works ( or Using Sinatra to Provide "Correct" RESTful Web Service )</div>
+          <div class="summary">杭州端点网络技术有限公司联合创始人, 前淘宝资深软件工程师, <a href="http://github.com/gitlabhq/gitlabhq" target="_blank">Gitlab</a> 项目开发者。有多种编程语言的工作经历. 可熟练使用 Ruby, Java, ActionScript 作为第一语言. 对 Ruby/Sinatra 框架情有独钟. 并常驻 Github 贡献开源社区. 2011 年末机缘巧合的参与到了 GitLab 的开发中来, 现为 GitLab 组织成员, 并重点关注 Grit 与 Git Smart HTTP Protocol 方面的工作. 与吕戈共同开发了鸭眼网, 并从中抽取了基于 Sinatra 的 Simba 框架。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/zhangjinzhu.jpg" alt="张金柱" />
+        </div>
+        <div class="desc">
+          <h3>张金柱</h3>
+          <a href="http://twitter.com/zhangjinzhu" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">通过 DSL 来写 DSL</div>
+          <div class="summary">ArchLinux/Xmonad/tmux/Vim/Zsh/Android/OpenSource 粉，黑客幻想者。目前就职于 ThePlant，写过各种小开源软件，如 vrome, cookieless, grb, ipparse, capistrano-confirm, super list 等，给 sammy, devise, cucumber, clippy, Rack NTLM, Auto Migration, Parallel Tests 等开源项目贡献过代码，现在现致力于 ThePlant 的 Qor 平台的重构和开源。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/zete_lui.jpg" alt="吕戈 (Zete Lui)" />
+        </div>
+        <div class="desc">
+          <h3>吕戈 (Zete Lui)</h3>
+          <a href="http://twitter.com/night_song" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">超越正则表达式的正则表达式</div>
+          <div class="summary">独立 Mac App 开发者，曾于淘宝和 ThePlant 工作。精通多种编程语言 ... 的 Hello World，长年在 Ruby-Forum 和 Ruby China 潜水，偶尔解答诸如 "Y组合子怎么写最 cool" 之类的问题。喜欢 Sinatra，并与武鑫共同开发了基于 Sinatra 的 <a target="_blank" href="http://yavaeye.com/">鸭眼网</a>。曾向 Padrino 和 BlueCloth 贡献过一点微不足道的代码，发过一些不为人知的 Rubygems，偶尔在杭州 Ruby Tuesday 担任吐槽角色 (这要感谢 thePlant 的 Felix)。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/lulinqing.jpg" alt="陆林青" />
+        </div>
+        <div class="desc">
+          <h3>陆林青</h3>
+          <a href="#" title="无 Twitter" class="twitter"></a>
+          <div class="subject">You, Ruby, Cloud</div>
+          <div class="summary">Red Hat 亚太区云产品专家，主要负责 PaaS 产品的推广，同时为 OpenShift 开源社区提供技术支持。此前曾在 Red Hat 从事 Xen、RHEV 等虚拟化产品以及 DeltaCloud、OpenShift 等云产品 QE 多年，并专注于 SELinux 等安全技术。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/guochunzhong.jpg" alt="过纯中" />
+        </div>
+        <div class="desc">
+          <h3>过纯中</h3>
+          <a href="http://twitter.com/ecguo" title="过纯中" class="twitter"></a>
+          <div class="subject">定制 Rails 生成模板开发 Web 表单和 Excel 报告的工厂管理应用</div>
+          <div class="summary">10 年 .NET 经验，5 个月 Rails 经验，在 SanDisk 长期从事的上海工厂的生产管理软件运营开发和维护工作，自学和使用过很多微软技术，例如 Silverlight, Winform, ASP.NET, WCF, WPF, Powershell 等等，从自学 ASP.NET MVC 后决心转向 Rails 平台，很高兴能以 Rails 2012 开发者调查报告中占 2% 的 Windows 平台开发者身份参加第四届中国 Ruby 大会并分享 Windows 下的 Rails 开发经验。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/chenjinzhou.jpg" alt="陈金洲" />
+        </div>
+        <div class="desc">
+          <h3>陈金洲</h3>
+          <a href="http://twitter.com/mechiland" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">Ruby on Rails 创业小团队全技术栈指南</div>
+          <div class="summary"><a target="_blank" href="http://www.thoughtworks.com/">ThoughtWorks</a> 公司的高级咨询师，致力于追求卓越软件质量，提供注重实效的咨询服务，通过现场或离岸分布式敏捷开发，帮助客户解决最棘手、最紧迫的问题。在 Java/J2EE/.NET/Rails 上拥有超过九年的架构、开发、测试、部署的专家级经验。同时，陈金洲也是资深的敏捷顾问，对于组织从传统过程转型到敏捷开发过程拥有丰富的一线咨询经验。开源 AJAX 框架 <a href="http://buffalo.sourceforge.net" target="_blank">Buffalo</a> 的作者和维护者，偶尔写稿，演讲。作为创始人参与行易差旅协作软件的运作，工作和兴趣重心逐渐转向产品设计和运营。</div>
+        </div>
+      </div>
+
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/jimmy.jpg" alt="Jimmy Huang"/>
+        </div>
+        <div class="desc">
+          <h3>Jimmy Huang</h3>
+          <a href="http://twitter.com/pake007" title="点击查看他的 Twitter" target="_blank" class="twitter"></a>
+          <div class="subject">Wulin Kungfu fight for Ruby Enterprise problems</div>
+          <div class="summary">来自 <a href="http://ekohe.com" target="_blank">Ekohe</a> 的一名高级软件工程师，自 09 年接触 Ruby 之后，便被其强大的功能和优雅的语法征服，从而投身 Ruby 阵营。热爱开源，热衷重构，喜欢 Meta Programming, 推崇 Pair Programming 的工作方式，Ruby, Javascript, CSS, HTML 进阶开发者，iOS 开发入门者，兼任公司项目配音。在公司从事 FIFA World Cup BSS 项目过程中，和同事 Maxime 以及徐浩抽象出了 Wulin 系列 Gem。</div>
+        </div>
+      </div>
+
+      <div class="speaker speaker-odd">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/niesong.jpg" alt="聂颂" />
+        </div>
+        <div class="desc">
+          <h3>聂颂</h3>
+          <a href="#" title="无 Twitter" class="twitter"></a>
+          <div class="subject">RoR On Cloud</div>
+          <div class="summary">盛大云高级研究员。2010 年加入盛大云，先后担任云主机、计费系统、监控系统的研发经理，盛大云平台运营总监，以及大客户解决方案架构师。毕业于天津大学，从 2006 年起，在 IBM 先后担任过 4 个 PAAS/IAAS 产品的研发负责人、项目经理。</div>
+        </div>
+      </div>
+
+      <div class="speaker">
+        <div class="avatar">
+          <img src="http://l.ruby-china.org/rubyconf2012/img/speakers/wsl.jpg" alt="王松林" />
+        </div>
+        <div class="desc">
+          <h3>王松林</h3>
+          <a href="#" title="无 Twitter" class="twitter"></a>
+          <div class="subject">轻量 Ruby 的导入与评价</div>
+          <div class="summary">长期专注于嵌入式控制软件的研究开发，2002 年开始接触 Ruby，在技术开发中大胆尝试 Ruby 的原型开发方法，提高了产品质量，缩短了开发工时。2011 年参与了开源前的轻量 Ruby（适用嵌入式机器）在实际机器上的运用、评价及反馈工作。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="schedule">
+    <div class="box">
+      <h2>日程安排</h2>
+      <div class="content">
+        <br />
+        <img src="http://l.ruby-china.org/rubyconf2012/img/schedule.png" alt="" style="border:10px solid #fff;" />
+        <p>
+        <a href="http://l.ruby-china.org/rubyconf2012/downloads/rubyconfchina2012_schedule.pdf">下载</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="venue">
+    <div class="box">
+      <h2>会场信息</h2>
+      <div class="content">
+        <address>上海杨浦区淞沪路290号创智天地广场 <b>7</b> 号楼会议中心，近政立路</address>
+        <ul>
+          <li>地铁：十号线江湾体育场站，步行五分钟即到</li>
+          <li>自驾：园区内设有停车位</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="photos">
+      <img src="http://l.ruby-china.org/rubyconf2012/img/venue.jpg" class="venue_pic" alt="会场图片" />
+    </div>
+
+    <div class="map">
+      <h5>坐标</h5>
+      <p><a target="_blank" title="点击查看大地图" href="https://maps.google.com/maps/ms?msa=0&msid=206663137256715298185.0004c88d376d583e7e9aa&ie=UTF8&ll=31.307778,121.513306&spn=0.010844,0.010257&t=m&z=17&vpsrc=6&iwloc=0004c88d376eb40f2b2c3">
+        31.30754015404732<img src="http://l.ruby-china.org/rubyconf2012/img/map.png" class="icon" alt="map" />121.51280164718628
+      </a></p>
+      <p style="margin-top:60px;">
+        <img src="http://l.ruby-china.org/rubyconf2012/img/chart-map.png" />
+      </p>
+    </div>
+  </div>
+
+  <div id="sponsor" class="box">
+    <h2>赞助单位</h2>
+    <div class="content ">
+      <div class="sponsor-list platinum">
+        <h4>白金赞助商</h4>
+        <ul>
+          <li><a target="_blank" href="http://cloudfoundry.csdn.net/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/cloudfoundry.png" alt="CloudFoundry"/></a></li>
+          <li><a target="_blank" href="http://www.kic.net.cn/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/chuangzhitiandi.png" alt="创智天地"/></a></li>
+        </ul>
+      </div>
+
+      <div class="sponsor-list gold">
+        <h4>金牌赞助商</h4>
+        <ul>
+          <li><a target="_blank" href="http://intridea.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/intridea.png" alt="intridea"/></a></li>
+          <li><a target="_blank" href="https://openshift.redhat.com/app/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/redhat_openshift.png" alt="OpenShift"/></a></li>
+        </ul>
+      </div>
+
+      <div class="sponsor-list">
+        <h4>银牌赞助商</h4>
+        <ul>
+          <li><a target="_blank" href="http://transi.st/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/transist.png" alt="创思"/></a></li>
+          <li><a target="_blank" href="http://thoughtworks.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/thoughtworks.png" alt="ThoughtWorks"/></a></li>
+          <li><a target="_blank" href="http://www.locomote.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/locomote.png" alt="Locomote"/></a></li>
+          <li><a target="_blank" href="http://www.hzfuji.com/cn/index.htm?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/fujielectric.png" alt="富士电机"/></a></li>
+        </ul>
+      </div>
+
+      <div class="sponsor-list">
+        <h4>铜牌赞助商</h4>
+        <ul>
+          <li><a target="_blank" href="javascript:;"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/2vive.png" alt="2VIVE"/></a></li>
+          <li><a target="_blank" href="http://grandcloud.cn/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/grandcloud.png" alt="GrandCloud"/></a></li>
+          <li><a target="_blank" href="http://easyread.ly/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/easyread.png" alt="Easyread.ly"/></a></li>
+          <li><a target="_blank" href="http://theplant.jp/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/theplant.png" alt="ThePlant"/></a></li>
+          <li><a target="_blank" href="http://boohee.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/boohee.png" alt="薄荷网"/></a></li>
+          <li><a target="_blank" href="http://ekohe.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/ekohe.png" alt="Ekohe"/></a></li>
+          <li><a target="_blank" href="http://upyun.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/upyun.png" alt="Upyun"/></a></li>
+          <li><a target="_blank" href="http://buychina.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/buychina.jpg" alt="BuyChina"/></a></li>
+          <li><a target="_blank" href="http://qiniutek.com"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/qiniu.png" alt="QiNiu"/></a></li>
+          <li><a target="_blank" href="http://gitcafe.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/gitcafe.png" alt="GitCafe"/></a></li>
+          <li><a target="_blank" href="http://shopqi.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/shopqi.png" alt="ShopQi"/></a></li>
+          <li><a target="_blank" href="http://bbtang.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/bbtang.png" alt="BBTang"/></a></li>
+          <li><a target="_blank" href="http://nuzeta.ca/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/nuzeta.png" alt="Nuzeta"/></a></li>
+          <li><a target="_blank" href="http://railstutors.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/railstutors.png" alt="Rails Tutors"/></a></li>
+          <li><a target="_blank" href="http://tianji.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/tianji.png" alt="TianJi"/></a></li>
+          <li><a target="_blank" href="http://www.aliyun.com/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/aliyun.png" alt="Aliyun"/></a></li>
+          <li><a target="_blank" href="http://ruby.railstutorial.org/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/railstutorial.png" alt="RailsTutorial"/></a></li>
+          <li><a target="_blank" href="http://www.vpncloud.me/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/vpncloudme.png" alt="RailsTutorial"/></a></li>
+        </ul>
+      </div>
+
+      <div class="sponsor-list">
+        <h4>媒体支持</h4>
+        <ul>
+          <li><a target="_blank" href="http://csdn.net/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/csdn.png" alt="CSDN"/></a></li>
+          <li><a target="_blank" href="http://ituring.com.cn/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/turingbook.png" alt="Ituring"/></a></li>
+          <li><a target="_blank" href="http://topgeek.org/?utm_source=rubyconfchina&utm_medium=banner&utm_campaign=rubyconfchina2012"><img src="http://l.ruby-china.org/rubyconf2012/img/sponsors/topgeek.png" alt="TopGeek"/></a></li>
+        </ul>
+      </div>
+
+      <div class="join-sponsor">
+        <h4>成为赞助商</h4>
+        <p>如果您对成为本次大会的赞助商感兴趣,请邮件联系 <a href="mailto:admin@ruby-china.org">admin@ruby-china.org</a></p>
+        <p>或者电话联系吕国宁 +86 133-9115-9253</p>
+        <h4 style="margin-top:40px;">赞助商方案</h4>
+        <a target="_blank" href="http://l.ruby-china.org/rubyconf2012/downloads/Sponsorship_Pamphlet_Cn_v1.pdf">中文版</a> /
+        <a target="_blank" href="http://l.ruby-china.org/rubyconf2012/downloads/Sponsorship_Pamphlet_En_v1.pdf">English</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="box">
+    <h2>联系方式</h2>
+    <div class="content">
+      <h4>本次大会由 Ruby China 社区主办</h4>
+      <p><a href="http://ruby-china.org"><img src="http://l.ruby-china.org/photo/edafbc70e706f76f7ddc59fb4694fb86.png" class="ruby-china" /></a></p>
+      <p>Ruby China 是一个非营利组织，它旨在为中国的 Ruby 和 Rails 爱好者提供一个自由，开放的交流平台。目前这里已经是国内最权威的 Ruby 社区，拥有国内所有资深的 Ruby 工程师。</p>
+      <p>联系人: <a href="mailto:admin@ruby-china.org">吕国宁</a>, <a href="mailto:huacnlee@gmail.com">李华顺</a></p>
+    </div>
+
+    <div class="content">
+      <h4>TopGeek 顶尖极客沙龙协办</h4>
+      <p><a href="http://topgeek.org">topgeek.org</a></p>
+      <p>TopGeek 是面向技术极客的组织，定期举办线下活动，讨论软件和互联网的一些新的技术潮流，开发理念和经验。 这个组织不以语言或行业划分圈子，打破技术分割，开拓大家思路，促进互相学习，实现资源共享。解决一些成熟技术人员进一步发展的共同问题，促进交流和发展。口号："一日为极客，终身为极客！"</p>
+      <p>联系人: <a href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a></p>
+    </div>
+  </div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="http://l.ruby-china.org/rubyconf2012/js/site.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33952565-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
 </html>
