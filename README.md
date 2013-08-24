@@ -20,6 +20,7 @@ cake assets:watch
 gem install jekyll
 jekyll serve --watch
 ```
+More about jekyll refer to [Jekyll](http://http://jekyllrb.com/) website.
 
 ### Deploy
 
