@@ -14,6 +14,13 @@ This is the source code of [RubyConf China](http://rubyconfchina.org) website.
 ```bash
 cake assets:watch
 ```
+### local development
+
+```bash
+gem install jekyll
+jekyll serve --watch
+```
+More about jekyll refer to [Jekyll](http://http://jekyllrb.com/) website.
 
 ### Deploy
 
